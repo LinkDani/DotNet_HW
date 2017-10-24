@@ -22,7 +22,20 @@ namespace console_dotnet
                 //2°Maneira de escrita
                 Console.WriteLine("E adivinha... \n {0} é menor que dez!! D:", forgiveness);
             }
- 
+                int número = 10;
+
+                Boolean numeroIdentidade = número < 10;
+                if(numeroIdentidade){
+                    name = "Paulo";
+                    Console.WriteLine("Seu nome é: " + name);
+                }else{
+
+                    name = "Sem identidade";
+                    Console.WriteLine("Você não tem nome: " + name);
+                }
         }
     }
+
 }
+
+
