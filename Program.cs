@@ -34,7 +34,19 @@ namespace console_dotnet
                     name = "Sem identidade";
                     Console.WriteLine("Você não tem nome: " + name);
                 }
+
+                int Numero1;
+                int Numero2;
+                
+                Random rdm = new Random();
+
+                Numero1 = rdm.Next(10);
+                Numero2 = rdm.Next(10);
+                Console.WriteLine("Primeiro Numero sorteado: " + Numero1);
+                Console.WriteLine("Segundo Numero sorteado: " + Numero2);
+
         }
+
     }
 
 }
