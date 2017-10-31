@@ -35,17 +35,11 @@ namespace console_dotnet
                     Console.WriteLine("Você não tem nome: " + name);
                 }
 
-                int N1;
-                int N2;
-                
-                Random rdm = new Random();
+            Teste a = new Teste();
+            a.teste1();
 
-                N1 = rdm.Next(20);
-                N2 = rdm.Next(20);
-                Console.WriteLine("O Número sorteado: " + (N1 + N2));
-                
 
-        }
+        }   
 
     }
 
